@@ -1,0 +1,125 @@
+.event__title {
+   font-family: Caveat Brush;
+   font-size: 24px;
+   line-height: 1.25;
+   text-align: center;
+   color: var(--black-color);
+
+   @media screen and (max-width:768px) {
+      font-size: 18px;
+      padding-top: 45px;
+      padding-bottom: 12px;
+   }
+}
+
+.event__text{
+   font-size: 16px;
+   line-height: 1.25;
+   text-align: center;
+
+   @media screen and (max-width:768px) {
+      padding-bottom: 12px;
+   }
+}
+
+.event__icon {
+   fill: var(--main-accente-color);
+   // display: block;
+   // align-items: center;
+   // justify-content: center;
+}
+
+.event__icon-chef {
+   width: 25px;
+   height: 23px;
+}
+
+.event__icon-people {
+   width: 26px;
+   height: 23px;
+}
+
+.event__icon-clock {
+   width: 25px;
+   height: 25px;
+}
+
+.event__icon-chat {
+   width: 32px;
+   height: 21px;
+}
+
+.reviews__text {
+   // font-style: italic;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 4.06;
+   text-align: center;
+}
+
+.reviews__text-section {
+   text-align: center;
+}
+
+.reviews__text-subtitle {
+   font-size: 16px;
+   line-height: 1.25;
+   text-align: center;
+   color: var(--main-accente-color);
+}
+
+.program_item:not(:last-child) {
+
+   @media screen and (max-width:768px) {
+      margin-bottom: 15px;
+   }
+}
+
+.event__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.event__item {
+   border-radius: 50%;
+   background: #FEF3E4;
+   box-shadow: 0px 4px 4px rgba(171, 129, 108, 0.25);
+   width: 142px;
+   height: 142px;
+   text-align: center;
+
+   @media screen and (min-width:360px) and (max-width:380px) {
+      width: 160px;
+      height: 160px;
+   }
+
+   @media screen and (min-width:380px) and (max-width:420px) {
+      width: 170px;
+      height: 170px;
+   }
+
+   @media screen and (min-width:420px) and (max-width:460px) {
+      width: 180px;
+      height: 180px;
+   }
+
+   @media screen and (min-width:460px) and (max-width:768px) {
+      width: 190px;
+      height: 190px;
+   }
+}
+
+.event__item:nth-child(1),
+.event__item:nth-child(2) {
+   margin-bottom: 10px;
+}
+
+.event__item:nth-child(1),
+.event__item:nth-child(3) {
+   transform: translateY(-20px);
+}
+
+.program__events {
+   margin-top: 60px;
+}

@@ -1,0 +1,30 @@
+
+.sicial__list{
+	display: flex;
+
+	@media screen and (max-width:768px)  {
+		margin-top: 45px;
+		justify-content: center;
+	}
+
+	@media screen and (min-width:769px) and (max-width:853px) {
+		margin-top: 31px;
+	}
+
+	@media screen and (min-width:854px)  {
+		margin-top: 65px;
+	}
+
+}
+
+.sicial__item:not(:last-child){
+	margin-right: 12px;
+}
+.social__icon {
+	width: 20px;
+	height: 20px;
+	fill: var(--main-text-color);
+	// transition: fill var(--transform-time) linear;
+}
+
+

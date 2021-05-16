@@ -1,0 +1,51 @@
+.form__text {
+   text-align: center;
+}
+
+.form{
+   padding: 12px;
+}
+
+.lebel {
+   
+}
+
+.input {
+   width: 100%;
+   
+   border: none;
+   height: 22px;
+   // margin-bottom: 15px;
+}
+
+.form__border {
+   border-bottom: 1px solid #AB816C;
+   margin-top: 15px;
+}
+
+.form__input {
+   margin-bottom: 30px;
+}
+
+.section__registration {
+
+   .main__button {
+      margin-left: auto;
+      margin-right: auto;
+      border: none;
+   }
+}
+
+// .form__fon {
+//    position: absolute;
+//    top: 0;
+//    left: -50%;
+//    transform: translateX(-50%);
+//    width: 510px;
+//    height: 290px;
+//    background: #FFFFF9;
+//    box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+//    border-radius: 150px 0px 0px 150px;
+//    transform: rotate(90deg);
+//    z-index: 0;
+// }

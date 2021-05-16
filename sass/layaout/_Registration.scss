@@ -1,0 +1,39 @@
+.section__registration{
+   position: relative;
+   z-index: 10;
+}
+
+.registration_text {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   text-align: right;
+
+   @media screen and (max-width:768px) {
+      max-width: 114px;
+      width: 100%;
+      font-size: 18px;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      margin-bottom: 25px;
+   }
+}
+
+.registration__data {
+  
+}
+
+
+.registration__div {
+   height: 510px;
+   background: #FFFFF9;
+   box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+   border-radius: 250px 250px 0px 0px;
+   // transform: rotate(90deg);
+   padding-top: 30px;
+
+   @media screen and (max-width:480px) {
+      width: 100%;
+   }
+}
